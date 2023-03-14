@@ -1,0 +1,435 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    background-color: #0f0f10;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+
+.beats-logo{
+    width: 55px;
+    height: 55px;
+    position: relative;
+    top: 40px;
+    left: 40px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header ul{
+    position: relative;
+    top: 40px;
+    right: 300px;
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.shop{
+    background-color: #3f3f42;
+    padding: 10px 30px;
+    border-radius: 10px;
+    box-shadow: -1px -1px 0.5px #c2c5c4; 
+    transition: 0.2s;
+    position: relative;
+    top: -7px;
+}
+
+.shop:hover{
+    transform: scale(1.1);
+}
+
+.middle-section{
+    display: flex;
+    gap: 120px;
+}
+
+.main-image{
+    width: 300px;
+    height: 500px;
+    position: absolute;
+    top: 0;
+    left: 200px;
+}
+
+.on-ear{
+    width: 300px;
+    height: 60px;
+    position: relative;
+    left: 70px;
+}
+
+.right-section{
+    position: relative;
+    left: 600px;
+    font-family: 'Poppins',sans-serif;
+    width: 500px;
+    margin-left: 120px;
+    margin-top: 90px;
+    /* line-height: 30px; */
+}
+
+div h1{
+    font-size: 4em;
+}
+
+div h3{
+    font-size: 2em;
+    margin-bottom: 4px;
+}
+div p{
+    font-size: 1.2em;
+    font-weight: 100;
+    margin-top: 4px;
+}
+
+.btn{
+    background-color: #3f3f42;
+    padding: 10px 30px;
+    border-radius: 12px;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+
+.btn:hover{
+    transform: scale(1.1);
+}
+
+.shopping-bag{
+    position: relative;
+    top: 4px;
+    left: -15px;
+}
+
+.cart-button{
+    
+    color: #fff;
+    text-decoration: none;
+    border: 20px;
+}
+
+.bag-text{
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+span{
+    margin-left: 12px;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.platform{
+    position: relative;
+    bottom: -210px;
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    margin-left: 400px;
+    /* margin-top: 130px; */
+    list-style: none;
+    margin-bottom: 100px;
+}
+
+
+/* Second-section */
+
+.second-section{
+    position: absolute;
+    top: 900px;
+    left: 700px;
+}
+
+.bluetooth{
+    margin-top: 80px;
+    position: relative;
+    right: 240px;
+}
+
+.battery{
+    margin-top: 80px;
+    position: relative;
+    right: 280px;
+}
+
+.charger{
+    margin-top: 80px;
+    position: relative;
+    right: 280px;
+}
+
+.microphone{
+    margin-top: 80px;
+    position: relative;
+    right: 240px;   
+}
+
+.specsImage{
+    position: absolute;
+    height: 400px;
+    top: 250px;
+    left: 80px;
+}
+
+
+/* third-section */
+
+.third-section{
+    position: absolute;
+    top: 1800px;
+    left: 700px;
+}
+
+.specs{
+    margin-top: 150px;
+    display: flex;
+}
+
+.caseImage{
+    position: relative;
+    right: 250px;
+}
+
+.case-text{
+    position: relative;
+    right: 130px;
+    top: 80px;
+    width: 200px;
+}
+
+/* Fourth-section */
+
+.fourth-section{
+    position: absolute;
+    top: 2400px;
+    left: 500px;
+}
+
+.ad{
+    position: relative;
+    right: 200px;
+    width: 900px;
+    height: 350px;
+    background-color: #2f2f31;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+.ad h3{
+    position: relative;
+    top: 90px;
+    font-size: 1.2rem;
+    left: 100px;
+    margin-bottom: 10px;
+}
+
+.ad p{
+    position: relative;
+    top: 100px;
+    left: 100px;
+    margin-bottom: 10px;
+}
+
+.btn_2{
+    background-color: #111;
+    padding: 10px 30px;
+    border-radius: 12px;
+    margin-top: 20px;
+    transition: 0.3s;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    transition: 0.2s;
+}
+
+.btn_2:hover{
+    transform: scale(1.1);
+}
+
+.buyNowImage{
+    position: relative;
+    top: 300px;
+    left: 250px;
+    z-index: 1;
+}
+
+/* Fifth-section */
+
+.fifth-section{
+    position: absolute;
+    top: 3100px;
+    left: 600px;
+   
+}
+
+.black,
+.red-black,
+.night-black,
+.blue,
+.gray{
+    background-color: #37373a;
+    border-radius: 8px;
+    height: 150px;
+    width: 150px;
+    margin-top: 30px;
+    margin-bottom: 80px;
+    position: relative;
+    right: 100px;
+    
+}
+
+.black h4,
+.red-black h4,
+.night-black h4,
+.blue h4,
+.gray h4{
+    /* height: 100px; */
+    padding: 10px 20px;
+    position: relative;
+    top: 90px;
+}
+
+.black p,
+.red-black p,
+.night-black p,
+.blue p,
+.gray p{
+    position: relative;
+    top: 70px;
+    left: 19px;
+}
+
+.shopping_bag{
+    position: relative;
+    top: 45px;
+    left: 120px;
+}
+
+.black-headphone,
+.red-headphone,
+.night-headphone,
+.blue-headphone,
+.gray-headphone{
+    position: absolute;
+    width: 80px;
+    top: -30px;
+    left: 40px;
+}
+
+.blue{
+    position: absolute;
+    bottom: 460px;
+    left: 150px;
+}
+
+.gray{
+    position: absolute;
+    bottom: 230px;
+    left: 150px;
+}
+
+/* Footer-section */
+
+footer{
+    position: absolute;
+    top: 4100px;
+    left: 600px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+
+.footer-logo{
+    width: 55px;
+    height: 55px;
+    position: relative;
+    right: 550px;
+}
+
+.products{
+    position: relative;
+    right: 250px;
+}
+
+.support ul li a ,
+.products ul li a{
+    color: #fff;
+    text-decoration: none;
+
+}
+
+.support ul li ,
+.products ul li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.products h4,
+.support h4{
+    margin-bottom: 40px;
+    font-size: 1.2rem;
+}
+
+.social{
+    position: relative;
+    left: 100px;
+}
+
+input[type=email]{
+    width: 300px;
+    padding: 20px 15px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    background-color: #181A1B;
+    border: 1px solid #0f0f10;
+    border-radius: 12px;
+    color: #fff;
+}
+input[type=submit]{
+    padding: 10px 35px;
+    border-radius: 8px;
+    background-color: #0f0f10;
+    color: #fff;
+    border: 1px solid #111;
+    position: relative;
+    right: 150px;
+    cursor: pointer;
+}
+
+.right-arrow{
+    position: relative;
+    right: 280px;
+    top: 4px;
+}
+
+.media{
+    display: flex;
+}
+
+.media ul{
+    list-style: none;  
+    display: flex;
+    gap: 20px;
+    position: relative;
+    top: 50px;
+}
+
+
+
+
+
